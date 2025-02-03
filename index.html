@@ -90,6 +90,19 @@
         
         
         <p>You can use <kbd>Cmd</kbd> + <kbd>F</kbd> to search the website (on Mac OS)</p>
+
+        <hello-world></hello-world>
+
+        <script>
+            class HelloWorld extends HTMLElement {
+                connectedCallback() {
+                    console.log('Hello world!');
+                }
+            }
+            customElements.define('hello-world', HelloWorld);
+        </script>
+
+
     </main>
 
     <footer>
