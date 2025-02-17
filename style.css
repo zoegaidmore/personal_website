@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 :root {
     --main-pink-color:#f85a7f;
     --darker-pink-color: #f63461;
@@ -62,5 +61,3 @@ nav ul li a:hover {
 .active {
     background-color: var(--darker-pink-color);  
 }
-=======
->>>>>>> parent of 7430754 (started styling)
